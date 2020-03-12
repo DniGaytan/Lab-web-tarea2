@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #154360;
+}
+.navbar .navbar-brand {
+  color: #60ce80;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #f0f0f0;
+}
+.navbar .navbar-text {
+  color: #60ce80;
+}
+.navbar .navbar-text a {
+  color: #f0f0f0;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #60ce80;
+}
+.navbar .navbar-nav .nav-link {
+  color: #60ce80;
+  border-radius: 0.25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #5ab9ea;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #60ce80;
+  background-color: #c1c8e4;
+}
